@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CPython stuff
+python_org_secrets.py
+
+# Virtual Environments (Entornos virtuales)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code folders
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Databases (si usas SQLite para tus estudios)
+*.db
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
