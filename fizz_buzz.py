@@ -19,3 +19,21 @@ def fizz_buzz():
             print(numero)
 
 fizz_buzz()
+
+'''
+OTRA MANERA DE HACER ESTE EJERCICIO:
+
+
+numero = ''
+
+for i in range(1, 101):
+    if (i % 3 == 0):
+        numero = 'fizzbuzz' if i % 5 == 0 else 'fizz' # "Guarda 'fizzbuzz' si también es divisible por 5; de lo contrario, guarda solo 'fizz'". Es una forma muy compacta de resolver el problema del 15 (el múltiplo de ambos).
+    elif (i % 5 == 0):
+        numero = 'buzz'
+    else:
+        numero = i
+        
+    print(numero)
+    
+'''
