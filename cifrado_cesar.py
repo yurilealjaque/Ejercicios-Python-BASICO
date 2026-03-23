@@ -51,3 +51,4 @@ cifrado_cesar("ol proeuh hv bxul ñhdñ mdtxh", True)
 #Si llegas a la 'z' (posición 26) y sumas 1, te daría 27 (fuera de rango). Pero 27 % 27 es 0, lo que te devuelve al inicio ('a').
 #cesar_text += ...: Buscamos la letra en la nueva posición y la pegamos al resultado.
 
+
